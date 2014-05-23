@@ -2,8 +2,15 @@
 
 ##How to use##
 
-<div id="map" style="..."></div>
+###The html###
 
+```HTML
+<div id="map" style="..."></div>
+<input type="text" id="street">
+...
+```
+
+```JavaScript
 $("#map").googleAddress({
     street: $("#street"),
     number: $("#number"),
@@ -14,3 +21,4 @@ $("#map").googleAddress({
     map: $("#map"),
     infos: $("#infos")
 });
+```
